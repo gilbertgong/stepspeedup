@@ -1,0 +1,22 @@
+{
+    # Speed levels. 1 and 2 are always included, and the list is sorted automatically.
+    # Very high values make combat simulation less accurate (bigger time steps per frame).
+    "speeds":[1, 2, 4, 6, 8, 16],
+
+    # LWJGL key codes: https://gist.github.com/Mumfrey/5cfc3b7e14fef91b6fa56470dc05218a
+    "speedUpKeys":[13, 78],   # = / + key, numpad +
+    "slowDownKeys":[12, 74],  # - key, numpad -
+
+    # Holding the key keeps stepping (uses keyboard repeat)
+    "allowKeyRepeat":false,
+
+    # Reset combat speed to the first entry at the start of each battle
+    "resetEachBattle":true,
+
+    # In the campaign, +/- sets the fast-forward speed (the game has no other campaign speed hook).
+    # x2 is used when a save is loaded, replacing the game's default.
+    "enableCampaign":true,
+
+    # Show a message when the speed changes
+    "showMessages":true
+}

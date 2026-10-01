@@ -1,0 +1,5 @@
+{
+    "plugins":{
+        "StepSpeedupCombat":"data.scripts.stepspeedup.StepSpeedupCombat"
+    }
+}
