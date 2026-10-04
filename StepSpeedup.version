@@ -1,0 +1,10 @@
+{
+"masterVersionFile":"https://raw.githubusercontent.com/oprotnes/weaponAmounts/main/WeaponAmounts.version",
+	"modName":"StepSpeedup",
+	"modVersion": {
+		"major":1,
+		"minor":0,
+		"patch":0
+	},
+	"starsectorVersion":"0.98a-RC8",
+}
