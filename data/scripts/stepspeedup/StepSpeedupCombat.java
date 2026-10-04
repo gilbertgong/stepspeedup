@@ -48,11 +48,6 @@ public class StepSpeedupCombat extends BaseEveryFrameCombatPlugin {
         float speed = StepSpeedupConfig.speeds[speedIndex];
         if (speed != 1f) {
             engine.getTimeMult().modifyMult(STAT_ID, speed, "Step Speedup");
-            if (player != null && engine.isEntityInPlay(player)) {
-                engine.maintainStatusForPlayerShip(STAT_ID,
-                        Global.getSettings().getSpriteName("ui", "icon_tactical_coordinated_maneuvers"),
-                        "Step Speedup", "game speed " + StepSpeedupConfig.formatSpeed(speed), false);
-            }
         } else {
             engine.getTimeMult().unmodify(STAT_ID);
         }

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" shape-rendering="crispEdges">
+  <defs>
+    <!-- "step" drawn from 2px blocks, so each block lands exactly on the pixel grid at 40x40 -->
+    <g id="word">
+    <rect x="2" y="15" width="2" height="2"/>
+    <rect x="4" y="15" width="2" height="2"/>
+    <rect x="6" y="15" width="2" height="2"/>
+    <rect x="8" y="15" width="2" height="2"/>
+    <rect x="2" y="17" width="2" height="2"/>
+    <rect x="2" y="19" width="2" height="2"/>
+    <rect x="4" y="19" width="2" height="2"/>
+    <rect x="6" y="19" width="2" height="2"/>
+    <rect x="8" y="19" width="2" height="2"/>
+    <rect x="8" y="21" width="2" height="2"/>
+    <rect x="2" y="23" width="2" height="2"/>
+    <rect x="4" y="23" width="2" height="2"/>
+    <rect x="6" y="23" width="2" height="2"/>
+    <rect x="8" y="23" width="2" height="2"/>
+    <rect x="14" y="11" width="2" height="2"/>
+    <rect x="14" y="13" width="2" height="2"/>
+    <rect x="12" y="15" width="2" height="2"/>
+    <rect x="14" y="15" width="2" height="2"/>
+    <rect x="16" y="15" width="2" height="2"/>
+    <rect x="14" y="17" width="2" height="2"/>
+    <rect x="14" y="19" width="2" height="2"/>
+    <rect x="14" y="21" width="2" height="2"/>
+    <rect x="14" y="23" width="2" height="2"/>
+    <rect x="16" y="23" width="2" height="2"/>
+    <rect x="20" y="15" width="2" height="2"/>
+    <rect x="22" y="15" width="2" height="2"/>
+    <rect x="24" y="15" width="2" height="2"/>
+    <rect x="26" y="15" width="2" height="2"/>
+    <rect x="20" y="17" width="2" height="2"/>
+    <rect x="26" y="17" width="2" height="2"/>
+    <rect x="20" y="19" width="2" height="2"/>
+    <rect x="22" y="19" width="2" height="2"/>
+    <rect x="24" y="19" width="2" height="2"/>
+    <rect x="26" y="19" width="2" height="2"/>
+    <rect x="20" y="21" width="2" height="2"/>
+    <rect x="20" y="23" width="2" height="2"/>
+    <rect x="22" y="23" width="2" height="2"/>
+    <rect x="24" y="23" width="2" height="2"/>
+    <rect x="26" y="23" width="2" height="2"/>
+    <rect x="30" y="15" width="2" height="2"/>
+    <rect x="32" y="15" width="2" height="2"/>
+    <rect x="34" y="15" width="2" height="2"/>
+    <rect x="36" y="15" width="2" height="2"/>
+    <rect x="30" y="17" width="2" height="2"/>
+    <rect x="36" y="17" width="2" height="2"/>
+    <rect x="30" y="19" width="2" height="2"/>
+    <rect x="36" y="19" width="2" height="2"/>
+    <rect x="30" y="21" width="2" height="2"/>
+    <rect x="32" y="21" width="2" height="2"/>
+    <rect x="34" y="21" width="2" height="2"/>
+    <rect x="36" y="21" width="2" height="2"/>
+    <rect x="30" y="23" width="2" height="2"/>
+    <rect x="30" y="25" width="2" height="2"/>
+    <rect x="30" y="27" width="2" height="2"/>
+    </g>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="40" height="40" rx="6" fill="#101b2d" shape-rendering="auto"/>
+
+  <!-- Blue shadow, offset 1px down-right, then the gold letters on top -->
+  <use href="#word" x="1" y="1" fill="#2f7fc4"/>
+  <use href="#word" fill="#ffd34d"/>
+</svg>
