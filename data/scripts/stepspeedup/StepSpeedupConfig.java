@@ -14,7 +14,7 @@ import org.json.JSONObject;
 public class StepSpeedupConfig {
 
     public static final String MOD_ID = "stepspeedup";
-    private static final String CONFIG_FILE = "data/config/stepspeedup.json";
+    private static final String CONFIG_FILE = "data/config/StepSpeedup.json";
 
     public static float[] speeds = {1f, 2f, 4f, 6f, 8f, 16f};
     public static Set<Integer> speedUpKeys = new HashSet();
