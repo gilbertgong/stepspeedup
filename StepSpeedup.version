@@ -1,5 +1,6 @@
 {
 	"masterVersionFile":"https://raw.githubusercontent.com/gilbertgong/stepspeedup/main/StepSpeedup.version",
+	"changelogURL":"https://raw.githubusercontent.com/gilbertgong/stepspeedup/main/changelog.md",
 	"modName":"StepSpeedup",
 	"modVersion": {
 		"major":1,
