@@ -1,5 +1,5 @@
 {
-"masterVersionFile":"https://raw.githubusercontent.com/oprotnes/weaponAmounts/main/WeaponAmounts.version",
+	"masterVersionFile":"https://raw.githubusercontent.com/gilbertgong/stepspeedup/main/StepSpeedup.version",
 	"modName":"StepSpeedup",
 	"modVersion": {
 		"major":1,
