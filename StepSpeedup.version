@@ -1,4 +1,5 @@
 {
+	"directDownloadURL":"https://github.com/gilbertgong/stepspeedup/releases/tag/v1.0.0",
 	"masterVersionFile":"https://raw.githubusercontent.com/gilbertgong/stepspeedup/main/StepSpeedup.version",
 	"changelogURL":"https://raw.githubusercontent.com/gilbertgong/stepspeedup/main/changelog.txt",
 	"modName":"StepSpeedup",
