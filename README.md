@@ -1,16 +1,16 @@
 <p align="center"><img src="graphics/banner.png" alt="StepSpeedup"></p>
-# StepSpeedup
 
-A Starsector utility mod that lets you step the game speed up and down with the
+**StepSpeedup**, a Starsector utility mod that lets you step the game speed up and down with the
 `+` and `-` keys, through a list of (configurable) speed multipliers:
 
 ```
 x1  →  x2  →  x4  →  x6  →  x8  →  x16
 ```
 
-Each press moves one step. Pressing `-` or `+` at the minimum/maximum speeds does
-nothing.  It is recommended when using this mod to enable the `Campaign "speed up time" is a toggle`
+This works in both combat and the campaign.
+It is recommended when using this mod to enable the `Campaign "speed up time" is a toggle`
 game setting in Starsector, and keep "speed up" enabled.  You can step down to 1x for normal speed.
+However, it does also work with the standard non-toggle setting as well.
 
 ## Why another speed mod?
 
