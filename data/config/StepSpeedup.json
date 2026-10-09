@@ -14,7 +14,7 @@
     "resetEachBattle":true,
 
     # In the campaign, +/- sets the fast-forward speed (the game has no other campaign speed hook).
-    # x2 is used when a save is loaded, replacing the game's default.
+    # x2 is used as the default speedup in campaign, matching vanilla behavior
     "enableCampaign":true,
 
     # Show a message when the speed changes

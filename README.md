@@ -1,3 +1,4 @@
+<p align="center"><img src="graphics/banner.png" alt="StepSpeedup"></p>
 # StepSpeedup
 
 A Starsector utility mod that lets you step the game speed up and down with the
@@ -24,8 +25,8 @@ you to step down to a 1x speed, making it always simple to speed up or slow down
 
 ## AI Disclaimer
 
-The majority of this mod was written by Claude. I performed some manual edits and changes,
-and have reviewed every line of code in this mod/repo.
+The majority of this mod was written by Claude (including creation of some graphics).
+I performed some manual additions, edits, and changes, and have reviewed every line of code in this mod/repo.
 
 ## How it works
 

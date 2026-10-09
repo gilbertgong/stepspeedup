@@ -13,13 +13,14 @@ public class StepSpeedupCombat extends BaseEveryFrameCombatPlugin {
     private static final String SOUND_ID = "ui_noise_static_message";
 
     // Static so the speed can carry over between battles when resetEachBattle is off
+    // start off the first battle at "normal" (1x) speed
     private static int speedIndex = StepSpeedupConfig.getNormalSpeedIndex();
 
+    // Null until the first advance() of this battle. The game creates a new plugin per battle.
     private CombatEngineAPI engine;
 
-    @Override
-    public void init(CombatEngineAPI engine) {
-        this.engine = engine;
+    // init() is deprecated and not guaranteed to run before advance(), so setup happens here instead
+    private void initializeSpeed() {
         if (StepSpeedupConfig.resetEachBattle) {
             speedIndex = StepSpeedupConfig.getNormalSpeedIndex();
         }
@@ -28,7 +29,14 @@ public class StepSpeedupCombat extends BaseEveryFrameCombatPlugin {
 
     @Override
     public void advance(float amount, List<InputEventAPI> events) {
-        if (engine == null || engine.getCombatUI() == null) {
+        if (engine == null) {
+            engine = Global.getCombatEngine();
+            if (engine == null) {
+                return;
+            }
+            initializeSpeed();
+        }
+        if (engine.getCombatUI() == null) {
             return;
         }
 

@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import org.apache.log4j.Level;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -46,7 +47,9 @@ public class StepSpeedupConfig {
             for (int i = 0; i < array.length(); i++) {
                 float speed = (float) array.getDouble(i);
                 if (speed <= 0f) {
-                    throw new IllegalArgumentException("\"speeds\" entries must be greater than 0");
+                    Global.getLogger(StepSpeedupConfig.class).log(Level.WARN,
+                            "Step Speedup: ignoring speed " + speed + ", speeds must be greater than 0");
+                    continue;
                 }
                 list.add(Float.valueOf(speed));
             }
